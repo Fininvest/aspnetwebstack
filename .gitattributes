@@ -1,22 +1,41 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+* text
 
-# Custom for Visual Studio
-*.cs     diff=csharp
-*.sln    merge=union
-*.csproj merge=union
-*.vbproj merge=union
-*.fsproj merge=union
-*.dbproj merge=union
+*.bmp binary
+*.dll binary
+*.gif binary
+*.jpg binary
+*.png binary
+*.snk binary
 
-# Standard to msysgit
-*.doc	 diff=astextplain
-*.DOC	 diff=astextplain
-*.docx diff=astextplain
-*.DOCX diff=astextplain
-*.dot  diff=astextplain
-*.DOT  diff=astextplain
-*.pdf  diff=astextplain
-*.PDF	 diff=astextplain
-*.rtf	 diff=astextplain
-*.RTF	 diff=astextplain
+*.ascx text
+*.cd text
+*.cmd text
+*.coffee text
+*.config text
+*.cs text diff=csharp 
+*.csproj text merge=union 
+*.cshtml text
+*.css text
+*.dtd text
+*.edmx text
+*.htm text
+*.html text
+*.js text
+*.json text
+*.msbuild text
+*.nuspec text
+*.resx text
+*.ruleset text
+*.StyleCop text
+*.targets text
+*.tt text
+*.txt text
+*.vb text
+*.vbhtml text
+*.vbproj text merge=union 
+*.vbs text
+*.wsf text
+*.xml text
+*.xunit text
+
+*.sln text eol=crlf merge=union 
